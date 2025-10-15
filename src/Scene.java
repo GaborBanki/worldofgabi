@@ -6,8 +6,8 @@ public class Scene {
     private ArrayList<Item> items;
     private HashMap<Direction,Scene> exits;
 
-    public Scene(String desscription) {
-        this.description = desscription;
+    public Scene(String description) {
+        this.description = description;
         this.items = new ArrayList<>();
         this.exits = new HashMap<>();
     }
